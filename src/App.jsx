@@ -15,14 +15,6 @@ export default function BasicExample() {
 
 // You can think of these components as "pages"
 // in your app.
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
 const DraggeableForm = () => {
   const [inputList, setInputList] = useState([
     {
